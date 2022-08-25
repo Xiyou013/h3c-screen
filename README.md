@@ -1,5 +1,5 @@
 # yushi-srceen
-宇视大屏
+新华三大屏+Pad
 
 ## Project setup
 ```
