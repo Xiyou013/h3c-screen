@@ -4,11 +4,21 @@ import Home from '@/views/home/indexPage.vue'
 const routerArr = [
     {
         path: '/',
-        redirect: 'home'
+        redirect: 'vehiclePad'
     },
     {
         path: '/home',
         component: Home
+    },
+    {
+        path: '/vehicleData',
+        component: () => import('@/views/vehicleData/indexPage.vue'),
+        name: 'vehicleData',
+    },
+    {
+        path: '/vehiclePad',
+        component: () => import('@/views/vehicleData_Pad/indexPage.vue'),
+        name: 'vehiclePad',
     }
 ]
 
